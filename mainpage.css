@@ -83,10 +83,11 @@
             transition-behavior: allow-discrete;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .htxt:hover {
             /* hover effects for text in the header */
             color: #ffffff;
-        }
+        }}
 
         .bookhdr {
             /* this is the book button in the header */
@@ -112,10 +113,11 @@
             transition: scale 0.3s ease;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .bookhdr:hover {
             opacity: 1;
             scale: 1;
-        }
+        }}
 
         .container {
             /* the container for the text and image in 1st black background */
@@ -250,13 +252,14 @@
             transition-behavior: allow-discrete;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .bookbtn:hover {
             /* hover effects for book button in text section */
             opacity: 1;
 
             transform: translate(0px, -5px);
             box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
+        }}
 
         .gallerybtn {
             /* view gallery button in the text section*/
@@ -282,6 +285,7 @@
             transition-behavior: allow-discrete;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .gallerybtn:hover {
             /* hover effects for the gallery button in the text section*/
             opacity: 1;
@@ -290,7 +294,7 @@
             background-color: var(--ygreen);
             color: var(--yblack);
             box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
+        }}
 
         .bg2 {
             /* this is the 2st black background */
@@ -371,12 +375,13 @@
 
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .smallblock:hover {
             /* hover effects for small info blocks in the 2nd black background */
             opacity: 1;
             transform: translate(0px, -5px);
             box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+        }}
 
         .bigblock {
             /* this is the big info block in the 2nd black background */
@@ -401,12 +406,13 @@
             transition-behavior: allow-discrete;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .bigblock:hover {
             /* hover effects for big info block in the 2nd black background */
             opacity: 1;
             transform: translate(0px, -5px);
             box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+        }}
 
         .h1sinfo {
             font-family: 'Karantina';
@@ -453,7 +459,7 @@
             transition-behavior: allow-discrete;
 
         }
-
+@media (hover: hover) and (pointer: fine) {
         .gallerybtninfo:hover {
             /* hover effects for the gallery button in the text section*/
             opacity: 1;
@@ -462,7 +468,7 @@
 
             background-color: var(--ygreen);
             color: var(--yblack);
-        }
+        }}
 
         .pinfo {
             text-align: center;
@@ -527,10 +533,11 @@
             transition-behavior: allow-discrete;
         }
 
+        @media (hover: hover) and (pointer: fine) {
         .gallery-img:hover {
             transform: translate(0px, -5px);
             box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
+        }}
 
         .gallery-title {
             grid-area: t;
@@ -590,9 +597,6 @@
             margin-right: 1em;
             font-size: 1.5em;
         }
-        .socials a:hover{
-            color: #e0e0e0;
-        }
 
 
 
@@ -633,12 +637,6 @@
             transition-behavior: allow-discrete;
 
         }
-        .smallblock:hover {
-            /* hover effects for small info blocks in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
 
         .bigblock {
             /* this is the big info block in the 2nd black background */
@@ -660,13 +658,6 @@
 
             transition: all 0.3s ease-in-out;
             transition-behavior: allow-discrete;
-        }
-
-        .bigblock:hover {
-            /* hover effects for big info block in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
         }}
 
 
@@ -717,10 +708,7 @@
             color: #ffffff;
             text-decoration: none;
         }
-         .htxt:hover {
-            /* hover effects for text in the header */
-            color: #ffffff;
-        }
+
         .bookhdr {
             /* this is the book button in the header */
             font-family: 'Arsenal SC';
@@ -745,10 +733,7 @@
             transition: scale 0.3s ease;
         }
 
-        .bookhdr:hover {
-            opacity: 1;
-            scale: 1;
-        }
+
 
         .container {
             /* the container for the text and image in 1st black background */
@@ -869,13 +854,7 @@
             transition-behavior: allow-discrete;
         }
 
-        .bookbtn:hover {
-            /* hover effects for book button in text section */
-            opacity: 1;
 
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
 
         .gallerybtn {
             /* view gallery button in the text section*/
@@ -900,15 +879,6 @@
             transition-behavior: allow-discrete;
         }
 
-        .gallerybtn:hover {
-            /* hover effects for the gallery button in the text section*/
-            opacity: 1;
-            transform: translate(0px, -5px);
-
-            background-color: var(--ygreen);
-            color: var(--yblack);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
 
         .bg2 {
             /* this is the 2st black background */
@@ -994,12 +964,7 @@
 
         }
 
-        .smallblock:hover {
-            /* hover effects for small info blocks in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+
 
         .bigblock {
             /* this is the big info block in the 2nd black background */
@@ -1024,12 +989,7 @@
             transition-behavior: allow-discrete;
         }
 
-        .bigblock:hover {
-            /* hover effects for big info block in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+
 
         .h1sinfo {
             font-family: 'Karantina';
@@ -1077,15 +1037,7 @@
 
         }
 
-        .gallerybtninfo:hover {
-            /* hover effects for the gallery button in the text section*/
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
 
-            background-color: var(--ygreen);
-            color: var(--yblack);
-        }
 
         .pinfo {
             text-align: center;
@@ -1167,10 +1119,8 @@
             transition: all 0.3s ease;
             transition-behavior: allow-discrete;
         }
-         .htxt:hover {
-            /* hover effects for text in the header */
-            color: #ffffff;
-        }
+        
+
         .bookhdr {
             /* this is the book button in the header */
             font-family: 'Arsenal SC';
@@ -1195,10 +1145,7 @@
             transition: scale 0.3s ease;
         }
 
-        .bookhdr:hover {
-            opacity: 1;
-            scale: 1;
-        }
+
 
         .container {
             /* the container for the text and image in 1st black background */
@@ -1320,13 +1267,6 @@
             transition-behavior: allow-discrete;
         }
 
-        .bookbtn:hover {
-            /* hover effects for book button in text section */
-            opacity: 1;
-
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
 
         .gallerybtn {
             /* view gallery button in the text section*/
@@ -1351,15 +1291,7 @@
             transition-behavior: allow-discrete;
         }
 
-        .gallerybtn:hover {
-            /* hover effects for the gallery button in the text section*/
-            opacity: 1;
-            transform: translate(0px, -5px);
 
-            background-color: var(--ygreen);
-            color: var(--yblack);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-        }
 
         .bg2 {
             /* this is the 2st black background */
@@ -1445,12 +1377,7 @@
 
         }
 
-        .smallblock:hover {
-            /* hover effects for small info blocks in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+
 
         .bigblock {
             /* this is the big info block in the 2nd black background */
@@ -1475,12 +1402,7 @@
             transition-behavior: allow-discrete;
         }
 
-        .bigblock:hover {
-            /* hover effects for big info block in the 2nd black background */
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.35);
-        }
+
 
         .h1sinfo {
             font-family: 'Karantina';
@@ -1526,16 +1448,6 @@
             transition: all 0.3s ease;
             transition-behavior: allow-discrete;
 
-        }
-
-        .gallerybtninfo:hover {
-            /* hover effects for the gallery button in the text section*/
-            opacity: 1;
-            transform: translate(0px, -5px);
-            box-shadow: 0px 5px 20px rgba(0, 108, 103, 0.35);
-
-            background-color: var(--ygreen);
-            color: var(--yblack);
         }
 
         .pinfo {
@@ -1626,17 +1538,6 @@
             font-family: 'Karantina';
             font-weight: normal;
         }
-         .footer{
-            width: 100%;
-            height: 300px;
-            margin: 0;
-            margin-left: 20px;
-
-            display: grid;
-            grid-auto-flow: row;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            align-items: start;
-        }
+         
         }
         
