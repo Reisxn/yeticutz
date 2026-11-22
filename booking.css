@@ -83,7 +83,7 @@
             width: auto;
         }
 
-        @media (max-width: 480px) {
+        @media (max-width: 565px) {
             .booking {
                 padding: 10px 0;
             }
