@@ -1063,7 +1063,7 @@
         }
 
         /*mobile responsiveness*/
-        @media (max-width: 480px) {
+        @media (max-width: 565px) {
             .bg1 {
             /* this is the 1st black background */
             height: 700px;
