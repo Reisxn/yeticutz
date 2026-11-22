@@ -1,0 +1,93 @@
+        
+        
+        @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Karantina:wght@300;400;700&display=swap');
+       
+       :root {
+            --ygreen: #006467;
+            --yblack: #1e1e1e;
+        }
+
+        body{
+            background-color: var(--ygreen);
+        }
+        .booking {
+            width: 100%;
+            box-sizing: border-box;
+            min-height: 98vh;
+            padding: 20px 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: var(--yblack);
+            border-radius: 10px;
+        }
+
+        #cal-embed {
+            width: 100%;
+            min-height: 650px;
+            overflow: auto;
+        }
+        .footer{
+            width: 100%;
+            margin: 3em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            align-items: center;
+        }
+        .credits{
+            font-family: 'Arsenal SC';
+            font-size: 1.5em;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .credits a{
+            text-underline-offset: 6px;
+            color: #ffffff;
+            text-decoration-thickness: 1px;
+            transition-duration: 100ms;
+        }
+        .credits a:hover{
+            color: #e0e0e0;
+        }
+        
+        .socials h1{
+            font-family: 'Karantina';
+            font-weight: normal;
+            font-size: 4em;
+            color: #ffffff;
+            margin:0;
+            padding:0;
+            margin-bottom: 10px
+        }
+        .socials a{
+            font-family: "Arsenal SC";
+            text-underline-offset: 6px;
+            color: #ffffff;
+            text-decoration-thickness: 1px;
+            transition-duration: 100ms;
+            margin-right: 1em;
+            font-size: 1.5em;
+        }
+        .socials a:hover{
+            color: #e0e0e0;
+        }
+
+        /* the shared footer is width:100% + margin, which overflows the screen on small devices */
+        .footer {
+            width: auto;
+        }
+
+        @media (max-width: 480px) {
+            .booking {
+                padding: 10px 0;
+            }
+
+            .footer {
+                margin: 2em 1em;
+            }
+        }
